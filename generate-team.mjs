@@ -5,7 +5,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const TOKEN = process.env.REPLICATE_API_TOKEN;
 if (!TOKEN) { console.error("Set REPLICATE_API_TOKEN"); process.exit(1); }
-const MODEL = "black-forest-labs/flux-1.1-pro";
+const MODEL = "google/imagen-4";
 mkdirSync(new URL("./assets/media/team/", import.meta.url), { recursive: true });
 
 const STYLE =
@@ -29,7 +29,7 @@ async function generate(member) {
     res = await fetch(`https://api.replicate.com/v1/models/${MODEL}/predictions`, {
       method: "POST",
       headers: { Authorization: `Bearer ${TOKEN}`, "Content-Type": "application/json", Prefer: "wait" },
-      body: JSON.stringify({ input: { prompt, aspect_ratio: "3:4", output_format: "webp", output_quality: 90, safety_tolerance: 2, prompt_upsampling: true } }),
+      body: JSON.stringify({ input: { prompt, aspect_ratio: "3:4", image_size: "2K", output_format: "jpg", safety_filter_level: "block_only_high" } }),
     });
     if (res.status === 429) { console.log(`  …rate-limited, waiting 30s (${member.slug})`); await sleep(30000); continue; }
     break;
@@ -48,13 +48,12 @@ async function generate(member) {
   const url = Array.isArray(pred.output) ? pred.output[0] : pred.output;
   const img = await fetch(url);
   const buf = Buffer.from(await img.arrayBuffer());
-  const path = new URL(`./assets/media/team/${member.slug}.webp`, import.meta.url);
+  const path = new URL(`./assets/media/team/${member.slug}.jpg`, import.meta.url);
   writeFileSync(path, buf);
   console.log(`✓ ${member.slug} (${(buf.length / 1024).toFixed(0)} KB)`);
 }
 
 for (const m of team) {
-  if (existsSync(new URL(`./assets/media/team/${m.slug}.webp`, import.meta.url))) { console.log("skip (exists)", m.slug); continue; }
   try { await generate(m); } catch (e) { console.error("✗", e.message); }
   await sleep(12000); // stay within the reduced rate limit
 }
