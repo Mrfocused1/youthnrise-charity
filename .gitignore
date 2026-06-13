@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# logs / deps (none used, but just in case)
+node_modules/
+*.log
+
+# scratch
+_*.html

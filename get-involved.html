@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>get involved · Youth n Rise</title>
+  <meta name="description" content="join Youth n Rise — become a mentor, volunteer, fundraise or partner with us. a few quick steps to start changing a young person's story." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/onboarding.css" />
+</head>
+<body>
+  <main class="ob">
+
+    <!-- ===== LEFT: the steps ===== -->
+    <section class="ob__form">
+      <div class="ob__bar">
+        <a class="ob__logo" href="index.html" aria-label="Youth n Rise home">
+          <img src="assets/media/youth-n-rise-logo.png" alt="Youth n Rise" />
+        </a>
+        <span class="ob__count" data-count>01 / 04</span>
+        <a class="ob__close" href="index.html">close ✕</a>
+      </div>
+
+      <div class="ob__progress"><div class="ob__progress__fill" data-progress></div></div>
+
+      <div class="ob__body">
+
+        <!-- STEP 1 — choose a path -->
+        <div class="ob__step is-active" data-step="path">
+          <p class="eyebrow">get involved</p>
+          <h1 class="lower">how do you want to make a difference?</h1>
+          <p class="lead">pick the way that fits you best — you can always do more later.</p>
+          <div class="ob__paths">
+            <button class="ob__path" data-path="mentor">
+              <span class="ob__path__check"></span>
+              <span class="ob__path__n">01</span>
+              <h3 class="lower">become a mentor</h3>
+              <p>give an hour a week to a young person who needs you.</p>
+            </button>
+            <button class="ob__path" data-path="volunteer">
+              <span class="ob__path__check"></span>
+              <span class="ob__path__n">02</span>
+              <h3 class="lower">volunteer</h3>
+              <p>lend a hand at our centres, clubs and community events.</p>
+            </button>
+            <button class="ob__path" data-path="fundraise">
+              <span class="ob__path__check"></span>
+              <span class="ob__path__n">03</span>
+              <h3 class="lower">fundraise</h3>
+              <p>run, bake, climb — raise money your own way.</p>
+            </button>
+            <button class="ob__path" data-path="partner">
+              <span class="ob__path__check"></span>
+              <span class="ob__path__n">04</span>
+              <h3 class="lower">partner with us</h3>
+              <p>bring your organisation's time, skills or funding.</p>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2 — about you -->
+        <div class="ob__step" data-step="about">
+          <p class="eyebrow">about you</p>
+          <h1 class="lower">tell us who you are.</h1>
+          <p class="lead">just the basics — we'll only use this to get you started.</p>
+          <div class="ob__fields">
+            <div class="ob__field" data-field="name">
+              <label for="ob-name">first name</label>
+              <input id="ob-name" type="text" autocomplete="given-name" placeholder="e.g. amara" />
+              <span class="hint">please add your name</span>
+            </div>
+            <div class="ob__row2">
+              <div class="ob__field" data-field="email">
+                <label for="ob-email">email</label>
+                <input id="ob-email" type="email" autocomplete="email" placeholder="you@email.com" />
+                <span class="hint">please add a valid email</span>
+              </div>
+              <div class="ob__field" data-field="city">
+                <label for="ob-city">town or city</label>
+                <input id="ob-city" type="text" autocomplete="address-level2" placeholder="e.g. london" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 3 — tailor -->
+        <div class="ob__step" data-step="tailor">
+          <p class="eyebrow" data-tailor-eyebrow>your interests</p>
+          <h1 class="lower" data-tailor-title>what would you love to share?</h1>
+          <p class="lead" data-tailor-lead>choose anything that sounds like you — it helps us match you well.</p>
+          <div class="ob__chips" data-chips>
+            <button class="ob__chip" data-chip="confidence">confidence</button>
+            <button class="ob__chip" data-chip="careers">careers &amp; work</button>
+            <button class="ob__chip" data-chip="education">education</button>
+            <button class="ob__chip" data-chip="sport">sport &amp; fitness</button>
+            <button class="ob__chip" data-chip="creativity">creativity &amp; arts</button>
+            <button class="ob__chip" data-chip="wellbeing">wellbeing</button>
+            <button class="ob__chip" data-chip="money">money skills</button>
+            <button class="ob__chip" data-chip="tech">tech &amp; digital</button>
+          </div>
+          <span class="ob__sublabel">when are you usually free?</span>
+          <div class="ob__avail" data-avail>
+            <button data-avail-opt="weekday-days">weekday daytimes</button>
+            <button data-avail-opt="weekday-eves">weekday evenings</button>
+            <button data-avail-opt="weekends">weekends</button>
+            <button data-avail-opt="flexible">i'm flexible</button>
+          </div>
+        </div>
+
+        <!-- STEP 4 — done -->
+        <div class="ob__step ob__done" data-step="done">
+          <p class="eyebrow">you're in</p>
+          <h1 class="lower" data-done-title>welcome to the movement.</h1>
+          <p class="lead" data-done-lead>thank you for stepping up. a young person's story is about to change because of you.</p>
+          <div class="ob__summary" data-summary></div>
+          <div class="ob__nav" style="margin-top:2.5rem">
+            <a class="btn btn--coral" href="index.html">back to home</a>
+            <a class="btn btn--outline" href="index.html#work">explore our work</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- shared nav (hidden on the done step) -->
+      <div class="ob__nav" data-nav>
+        <button class="ob__back" data-back>← back</button>
+        <span class="ob__note" data-note></span>
+        <span class="spacer"></span>
+        <button class="btn btn--coral" data-next>continue</button>
+      </div>
+    </section>
+
+    <!-- ===== RIGHT: media ===== -->
+    <aside class="ob__media">
+      <div class="ob__media__bg" data-ob-media></div>
+      <span class="ob__media__tint"></span>
+      <div class="ob__media__overlay">
+        <p class="ob__media__mark">youth n rise · empowering young people</p>
+        <p class="ob__media__cap" data-cap>join thousands giving their time and skills to young people.</p>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="assets/js/onboarding-media.js"></script>
+  <script src="assets/js/onboarding.js"></script>
+</body>
+</html>
