@@ -139,7 +139,10 @@ h1, h2, h3 { font-weight: 700; line-height: 0.95; letter-spacing: -0.02em; }
   transition: background 0.4s ease, color 0.4s ease;
   will-change: transform;
 }
-.header.anim { background: var(--bg); box-shadow: 0 1px 0 rgba(0,0,0,0.06); }
+/* once the header has its own background, match it to the section type so the
+   text/icon stays readable (white on dark, ink on cream) */
+.header.anim[data-color="light"] { background: var(--bg); box-shadow: 0 1px 0 rgba(0,0,0,0.06); }
+.header.anim[data-color="dark"] { background: var(--ink); }
 .header[data-color="dark"] { color: #fff; }
 .header[data-color="light"] { color: var(--ink); }
 .header__inner { display: flex; align-items: center; justify-content: space-between; width: 100%; }

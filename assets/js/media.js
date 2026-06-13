@@ -7,12 +7,12 @@ window.HAPPLY_MEDIA = {
     "creditUrl": "https://www.pexels.com/@julia-m-cameron"
   },
   "heroPoster": {
-    "img": "https://images.pexels.com/photos/36681981/pexels-photo-36681981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "imgPortrait": "https://images.pexels.com/photos/36681981/pexels-photo-36681981.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-    "tiny": "https://images.pexels.com/photos/36681981/pexels-photo-36681981.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-    "alt": "A diverse group of young adults sitting at an outdoor gathering, showcasing cultural diversity and friendship.",
-    "credit": "Marwen Larafa",
-    "creditUrl": "https://www.pexels.com/@marwen-larafa-2159807713"
+    "img": "https://images.pexels.com/photos/29180814/pexels-photo-29180814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "imgPortrait": "https://images.pexels.com/photos/29180814/pexels-photo-29180814.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+    "tiny": "https://images.pexels.com/photos/29180814/pexels-photo-29180814.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+    "alt": "A street photographer capturing vibrant urban life in London with a camera.",
+    "credit": "Miguel González",
+    "creditUrl": "https://www.pexels.com/@mikegles"
   },
   "mentor": {
     "photo": {
@@ -24,68 +24,68 @@ window.HAPPLY_MEDIA = {
       "creditUrl": "https://www.pexels.com/@shvets-production"
     },
     "video": {
-      "mp4": "https://videos.pexels.com/video-files/7517369/7517369-hd_1920_1080_25fps.mp4",
-      "poster": "https://images.pexels.com/videos/7517369/pexels-photo-7517369.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-      "credit": "Kampus Production",
-      "creditUrl": "https://www.pexels.com/@kampus"
+      "mp4": "https://videos.pexels.com/video-files/7200196/7200196-hd_1920_1080_25fps.mp4",
+      "poster": "https://images.pexels.com/videos/7200196/adult-aid-blond-casual-7200196.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "credit": "SHVETS production",
+      "creditUrl": "https://www.pexels.com/@shvets-production"
     }
   },
   "learn": {
     "photo": {
-      "img": "https://images.pexels.com/photos/8382222/pexels-photo-8382222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/8382222/pexels-photo-8382222.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/8382222/pexels-photo-8382222.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Two young artists concentrating on painting in a bright modern art studio.",
-      "credit": "Pavel Danilyuk",
-      "creditUrl": "https://www.pexels.com/@pavel-danilyuk"
+      "img": "https://images.pexels.com/photos/29242212/pexels-photo-29242212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/29242212/pexels-photo-29242212.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/29242212/pexels-photo-29242212.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Students focused on their exams in a classroom featuring UK-themed wall art.",
+      "credit": "This And No Internet 25",
+      "creditUrl": "https://www.pexels.com/@this-and-no-internet-25-288559"
     },
     "video": {
-      "mp4": "https://videos.pexels.com/video-files/8342754/8342754-hd_1920_1080_25fps.mp4",
-      "poster": "https://images.pexels.com/videos/8342754/pexels-photo-8342754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-      "credit": "Pavel Danilyuk",
-      "creditUrl": "https://www.pexels.com/@pavel-danilyuk"
+      "mp4": "https://videos.pexels.com/video-files/8198517/8198517-hd_1920_1080_25fps.mp4",
+      "poster": "https://images.pexels.com/videos/8198517/pexels-photo-8198517.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "credit": "Yan Krukau",
+      "creditUrl": "https://www.pexels.com/@yankrukov"
     }
   },
   "belong": {
     "photo": {
-      "img": "https://images.pexels.com/photos/8457625/pexels-photo-8457625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/8457625/pexels-photo-8457625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/8457625/pexels-photo-8457625.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "A diverse group of children walking outdoors, carrying backpacks and a basketball, heading to school on a sunny day.",
-      "credit": "Norma Mortenson",
-      "creditUrl": "https://www.pexels.com/@norma-mortenson"
+      "img": "https://images.pexels.com/photos/4835428/pexels-photo-4835428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/4835428/pexels-photo-4835428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/4835428/pexels-photo-4835428.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "A diverse group of teenagers enjoying an engaging indoor activity. Expressions of joy and camaraderie.",
+      "credit": "cottonbro studio",
+      "creditUrl": "https://www.pexels.com/@cottonbro"
     },
     "video": {
-      "mp4": "https://videos.pexels.com/video-files/5385436/5385436-hd_1366_720_30fps.mp4",
-      "poster": "https://images.pexels.com/videos/5385436/pexels-photo-5385436.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-      "credit": "Monstera Production",
-      "creditUrl": "https://www.pexels.com/@gabby-k"
+      "mp4": "https://videos.pexels.com/video-files/8402429/8402429-hd_1920_1080_25fps.mp4",
+      "poster": "https://images.pexels.com/videos/8402429/pexels-photo-8402429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+      "credit": "SHVETS production",
+      "creditUrl": "https://www.pexels.com/@shvets-production"
     }
   },
   "testimonials": [
     {
-      "img": "https://images.pexels.com/photos/8689989/pexels-photo-8689989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/8689989/pexels-photo-8689989.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/8689989/pexels-photo-8689989.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Artistic studio portrait of a man with inspiring message, highlighted by dramatic lighting.",
-      "credit": "Mikael Blomkvist",
-      "creditUrl": "https://www.pexels.com/@mikael-blomkvist"
+      "img": "https://images.pexels.com/photos/16113701/pexels-photo-16113701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/16113701/pexels-photo-16113701.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/16113701/pexels-photo-16113701.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "A young man wearing a blue jacket smiles in front of a colorful building on a city street.",
+      "credit": "Kei Scampa",
+      "creditUrl": "https://www.pexels.com/@kei-scampa-1201427"
     },
     {
-      "img": "https://images.pexels.com/photos/3776193/pexels-photo-3776193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/3776193/pexels-photo-3776193.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/3776193/pexels-photo-3776193.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Smiling woman with glasses holding books indoors, wearing a red coat.",
-      "credit": "Andrea Piacquadio",
-      "creditUrl": "https://www.pexels.com/@olly"
+      "img": "https://images.pexels.com/photos/5649888/pexels-photo-5649888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/5649888/pexels-photo-5649888.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/5649888/pexels-photo-5649888.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Caucasian woman with eyeglasses holding a Union Jack flag indoors, surrounded by bookshelves.",
+      "credit": "Thirdman",
+      "creditUrl": "https://www.pexels.com/@thirdman"
     },
     {
-      "img": "https://images.pexels.com/photos/19343512/pexels-photo-19343512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/19343512/pexels-photo-19343512.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/19343512/pexels-photo-19343512.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Close-up portrait of a smiling teenager with brown hair outdoors.",
-      "credit": "Mehmet Turgut  Kirkgoz",
-      "creditUrl": "https://www.pexels.com/@tkirkgoz"
+      "img": "https://images.pexels.com/photos/1498828/pexels-photo-1498828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/1498828/pexels-photo-1498828.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/1498828/pexels-photo-1498828.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Stylish portrait of a confident young woman in Bristol's urban setting.",
+      "credit": "Jack Winbow",
+      "creditUrl": "https://www.pexels.com/@jack-winbow-460463"
     },
     {
       "img": "https://images.pexels.com/photos/6591433/pexels-photo-6591433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -96,12 +96,12 @@ window.HAPPLY_MEDIA = {
       "creditUrl": "https://www.pexels.com/@cottonbro"
     },
     {
-      "img": "https://images.pexels.com/photos/9167315/pexels-photo-9167315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/9167315/pexels-photo-9167315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/9167315/pexels-photo-9167315.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Two women with curly hair and nose piercings smiling indoors against a neutral background.",
-      "credit": "Darina Belonogova",
-      "creditUrl": "https://www.pexels.com/@darina-belonogova"
+      "img": "https://images.pexels.com/photos/33715210/pexels-photo-33715210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/33715210/pexels-photo-33715210.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/33715210/pexels-photo-33715210.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "A portrait of a woman with long black hair standing outdoors in Birmingham, England.",
+      "credit": "Rahimat Onize Shaibu",
+      "creditUrl": "https://www.pexels.com/@rahimart"
     }
   ],
   "scatter": [
@@ -114,20 +114,20 @@ window.HAPPLY_MEDIA = {
       "creditUrl": "https://www.pexels.com/@gustavo-fring"
     },
     {
-      "img": "https://images.pexels.com/photos/7972741/pexels-photo-7972741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/7972741/pexels-photo-7972741.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/7972741/pexels-photo-7972741.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Three diverse graduates joyfully celebrating outdoors in caps, gowns, and holding diplomas.",
-      "credit": "George Pak",
-      "creditUrl": "https://www.pexels.com/@george-pak"
+      "img": "https://images.pexels.com/photos/7944181/pexels-photo-7944181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/7944181/pexels-photo-7944181.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/7944181/pexels-photo-7944181.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Group of diverse graduates celebrating indoors with confetti and diplomas.",
+      "credit": "Pavel Danilyuk",
+      "creditUrl": "https://www.pexels.com/@pavel-danilyuk"
     },
     {
-      "img": "https://images.pexels.com/photos/9654593/pexels-photo-9654593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/9654593/pexels-photo-9654593.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/9654593/pexels-photo-9654593.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Joyful children having fun with rackets and colorful ribbons indoors.",
-      "credit": "cottonbro studio",
-      "creditUrl": "https://www.pexels.com/@cottonbro"
+      "img": "https://images.pexels.com/photos/17896212/pexels-photo-17896212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/17896212/pexels-photo-17896212.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/17896212/pexels-photo-17896212.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Top-down shot of a soccer match on a green field in Brighton, UK.",
+      "credit": "Jordan Coleman",
+      "creditUrl": "https://www.pexels.com/@jordan-coleman-677910618"
     },
     {
       "img": "https://images.pexels.com/photos/6646926/pexels-photo-6646926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -138,12 +138,12 @@ window.HAPPLY_MEDIA = {
       "creditUrl": "https://www.pexels.com/@rdne"
     },
     {
-      "img": "https://images.pexels.com/photos/7521362/pexels-photo-7521362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/7521362/pexels-photo-7521362.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/7521362/pexels-photo-7521362.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "A young girl smiling during a music lesson in a studio with an open piano.",
-      "credit": "Pavel Danilyuk",
-      "creditUrl": "https://www.pexels.com/@pavel-danilyuk"
+      "img": "https://images.pexels.com/photos/7031286/pexels-photo-7031286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/7031286/pexels-photo-7031286.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/7031286/pexels-photo-7031286.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Adorable young girl sitting on the floor playing a ukulele in a vibrant art studio.",
+      "credit": "Vlada Karpovich",
+      "creditUrl": "https://www.pexels.com/@vlada-karpovich"
     },
     {
       "img": "https://images.pexels.com/photos/5306455/pexels-photo-5306455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -154,44 +154,44 @@ window.HAPPLY_MEDIA = {
       "creditUrl": "https://www.pexels.com/@ai25studioai"
     },
     {
-      "img": "https://images.pexels.com/photos/7683897/pexels-photo-7683897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/7683897/pexels-photo-7683897.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/7683897/pexels-photo-7683897.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Group of diverse college students laughing and walking on campus.",
-      "credit": "RDNE Stock project",
-      "creditUrl": "https://www.pexels.com/@rdne"
+      "img": "https://images.pexels.com/photos/5896758/pexels-photo-5896758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/5896758/pexels-photo-5896758.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/5896758/pexels-photo-5896758.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Side view of multiracial girls smiling while having fun together in backyard of house",
+      "credit": "Mary Taylor",
+      "creditUrl": "https://www.pexels.com/@mary-taylor"
     }
   ],
   "cards": {
     "volunteer": {
-      "img": "https://images.pexels.com/photos/6647126/pexels-photo-6647126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/6647126/pexels-photo-6647126.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/6647126/pexels-photo-6647126.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Smiling volunteer helping a senior man in a wheelchair outside on a sunny day.",
-      "credit": "RDNE Stock project",
-      "creditUrl": "https://www.pexels.com/@rdne"
+      "img": "https://images.pexels.com/photos/37894674/pexels-photo-37894674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/37894674/pexels-photo-37894674.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/37894674/pexels-photo-37894674.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "A man and an elderly woman share laughter indoors. Captured in Norwich, UK.",
+      "credit": "Boost Media-Marketing",
+      "creditUrl": "https://www.pexels.com/@boost-media-marketing-2156324299"
     },
     "give": {
-      "img": "https://images.pexels.com/photos/7713343/pexels-photo-7713343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imgPortrait": "https://images.pexels.com/photos/7713343/pexels-photo-7713343.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-      "tiny": "https://images.pexels.com/photos/7713343/pexels-photo-7713343.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-      "alt": "Graduates celebrating with caps and diplomas, expressing joy and achievement.",
-      "credit": "RDNE Stock project",
-      "creditUrl": "https://www.pexels.com/@rdne"
+      "img": "https://images.pexels.com/photos/8106675/pexels-photo-8106675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imgPortrait": "https://images.pexels.com/photos/8106675/pexels-photo-8106675.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "tiny": "https://images.pexels.com/photos/8106675/pexels-photo-8106675.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+      "alt": "Three young women celebrating graduation with a high five, holding diplomas indoors.",
+      "credit": "www.kaboompics.com",
+      "creditUrl": "https://www.pexels.com/@karola-g"
     }
   },
   "community": {
-    "img": "https://images.pexels.com/photos/17010855/pexels-photo-17010855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "imgPortrait": "https://images.pexels.com/photos/17010855/pexels-photo-17010855.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-    "tiny": "https://images.pexels.com/photos/17010855/pexels-photo-17010855.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
-    "alt": "A close-up black and white photo of diverse hands united in prayer, symbolizing spiritual unity.",
-    "credit": "Kanishka  Madushan",
-    "creditUrl": "https://www.pexels.com/@kanishka-madushan-415994588"
+    "img": "https://images.pexels.com/photos/36766054/pexels-photo-36766054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "imgPortrait": "https://images.pexels.com/photos/36766054/pexels-photo-36766054.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+    "tiny": "https://images.pexels.com/photos/36766054/pexels-photo-36766054.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280",
+    "alt": "A diverse group of adults perform an anthem indoors, displaying the UK flag passionately.",
+    "credit": "Vitaly Gariev",
+    "creditUrl": "https://www.pexels.com/@silverkblack"
   },
   "ctaSubs": {
-    "mp4": "https://videos.pexels.com/video-files/6646686/6646686-hd_1920_1080_24fps.mp4",
-    "poster": "https://images.pexels.com/videos/6646686/africa-causes-change-charity-6646686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-    "credit": "RDNE Stock project",
-    "creditUrl": "https://www.pexels.com/@rdne"
+    "mp4": "https://videos.pexels.com/video-files/6566015/6566015-hd_1366_720_25fps.mp4",
+    "poster": "https://images.pexels.com/videos/6566015/pexels-photo-6566015.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "credit": "cottonbro studio",
+    "creditUrl": "https://www.pexels.com/@cottonbro"
   }
 };
