@@ -18,9 +18,13 @@
 </head>
 <body>
   <main class="ob">
+    <!-- ===== full-bleed video background (swaps per chosen path) ===== -->
+    <div class="ob__bg" data-ob-media></div>
+    <span class="ob__bg-tint"></span>
+    <p class="ob__bgcap" data-cap>join thousands giving their time and skills to young people.</p>
 
-    <!-- ===== LEFT: the steps ===== -->
-    <section class="ob__form">
+    <!-- ===== floating glass step card ===== -->
+    <section class="ob__shell">
       <div class="ob__bar">
         <a class="ob__logo" href="index.html" aria-label="Youth n Rise home">
           <img src="assets/media/youth-n-rise-logo.png" alt="Youth n Rise" />
@@ -137,17 +141,6 @@
         <button class="btn btn--coral" data-next>continue</button>
       </div>
     </section>
-
-    <!-- ===== RIGHT: media ===== -->
-    <aside class="ob__media">
-      <div class="ob__media__bg" data-ob-media></div>
-      <span class="ob__media__tint"></span>
-      <div class="ob__media__overlay">
-        <p class="ob__media__mark">youth n rise · empowering young people</p>
-        <p class="ob__media__cap" data-cap>join thousands giving their time and skills to young people.</p>
-      </div>
-    </aside>
-
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
