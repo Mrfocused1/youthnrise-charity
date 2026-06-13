@@ -49,27 +49,31 @@ function initHeader() {
 }
 
 function initReveals() {
-  // hero entrance
-  if (!reduce) {
-    gsap.set("[data-reveal]", { opacity: 1 }); // managed below
-  }
   ScrollTrigger.batch("[data-reveal]", {
     start: "top 88%",
     onEnter: (els) => gsap.to(els, { opacity: 1, y: 0, duration: 0.9, ease: "power3.out", stagger: 0.08, overwrite: true }),
   });
-  // team cards stagger
-  ScrollTrigger.batch(".tm-card", {
-    start: "top 85%",
-    onEnter: (els) => gsap.to(els, { opacity: 1, y: 0, duration: 0.9, ease: "power3.out", stagger: 0.1, overwrite: true }),
+}
+
+function initCarousel() {
+  if (typeof Swiper === "undefined" || !qs(".tm-carousel")) return;
+  new Swiper(".tm-carousel", {
+    slidesPerView: 1.3,
+    spaceBetween: 16,
+    grabCursor: true,
+    breakpoints: {
+      560: { slidesPerView: 2.3, spaceBetween: 18 },
+      900: { slidesPerView: 3.4, spaceBetween: 20 },
+      1200: { slidesPerView: 4.4, spaceBetween: 22 },
+    },
   });
 }
 
 function boot() {
-  // team cards start hidden (separate from data-reveal)
-  gsap.set(".tm-card", { opacity: 0, y: 50 });
   initLenis();
   initHeader();
   initReveals();
+  initCarousel();
   ScrollTrigger.refresh();
   window.addEventListener("load", () => ScrollTrigger.refresh());
   if (document.fonts) document.fonts.ready.then(() => ScrollTrigger.refresh());

@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="stylesheet" href="assets/css/team.css" />
 </head>
@@ -62,53 +63,37 @@
       </div>
     </section>
 
-    <!-- ===== TEAM GRID ===== -->
-    <section class="tm-grid-wrap" data-c="light">
-      <div class="wrap">
-        <div class="tm-grid">
-          <article class="tm-card" data-reveal>
-            <div class="tm-card__photo"><span class="tm-card__initials">AO</span><img src="assets/media/team/amara-okafor.webp" alt="Amara Okafor" onerror="this.style.display='none'" /></div>
-            <h3 class="lower">amara okafor</h3>
-            <p class="tm-card__role">founder &amp; ceo</p>
-            <p class="tm-card__bio">started Youth n Rise after a decade mentoring across east London. believes every young person deserves someone in their corner.</p>
-          </article>
-
-          <article class="tm-card" data-reveal>
-            <div class="tm-card__photo"><span class="tm-card__initials">DW</span><img src="assets/media/team/daniel-whitfield.webp" alt="Daniel Whitfield" onerror="this.style.display='none'" /></div>
-            <h3 class="lower">daniel whitfield</h3>
-            <p class="tm-card__role">head of mentoring</p>
-            <p class="tm-card__bio">recruits, trains and supports our 1,200+ mentors so that every single match goes the distance.</p>
-          </article>
-
-          <article class="tm-card" data-reveal>
-            <div class="tm-card__photo"><span class="tm-card__initials">PS</span><img src="assets/media/team/priya-sharma.webp" alt="Priya Sharma" onerror="this.style.display='none'" /></div>
-            <h3 class="lower">priya sharma</h3>
-            <p class="tm-card__role">director of programmes</p>
-            <p class="tm-card__bio">designs our learning and skills programmes hand-in-hand with the young people who actually use them.</p>
-          </article>
-
-          <article class="tm-card" data-reveal>
-            <div class="tm-card__photo"><span class="tm-card__initials">MB</span><img src="assets/media/team/marcus-bennett.webp" alt="Marcus Bennett" onerror="this.style.display='none'" /></div>
-            <h3 class="lower">marcus bennett</h3>
-            <p class="tm-card__role">head of fundraising &amp; partnerships</p>
-            <p class="tm-card__bio">builds the partnerships and funding that keep our doors open — and every programme free.</p>
-          </article>
-
-          <article class="tm-card" data-reveal>
-            <div class="tm-card__photo"><span class="tm-card__initials">LT</span><img src="assets/media/team/leah-thompson.webp" alt="Leah Thompson" onerror="this.style.display='none'" /></div>
-            <h3 class="lower">leah thompson</h3>
-            <p class="tm-card__role">community lead</p>
-            <p class="tm-card__bio">runs our nine community centres across the UK and keeps every one of them feeling like home.</p>
-          </article>
-
-          <article class="tm-card" data-reveal>
-            <div class="tm-card__photo"><span class="tm-card__initials">JR</span><img src="assets/media/team/jamal-rahman.webp" alt="Jamal Rahman" onerror="this.style.display='none'" /></div>
-            <h3 class="lower">jamal rahman</h3>
-            <p class="tm-card__role">youth voice coordinator</p>
-            <p class="tm-card__bio">a former mentee, now making sure young people shape every decision we make.</p>
-          </article>
+    <!-- ===== TEAM CAROUSEL ===== -->
+    <section class="tm-carousel-wrap" data-c="light">
+      <div class="swiper tm-carousel" data-reveal>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide tm-slide">
+            <div class="tm-slide__photo"><img src="assets/media/team/amara-okafor.webp" alt="Amara Okafor" loading="lazy" /></div>
+            <div class="tm-slide__label"><h3>amara okafor</h3><span>founder &amp; ceo</span></div>
+          </div>
+          <div class="swiper-slide tm-slide">
+            <div class="tm-slide__photo"><img src="assets/media/team/daniel-whitfield.webp" alt="Daniel Whitfield" loading="lazy" /></div>
+            <div class="tm-slide__label"><h3>daniel whitfield</h3><span>head of mentoring</span></div>
+          </div>
+          <div class="swiper-slide tm-slide">
+            <div class="tm-slide__photo"><img src="assets/media/team/priya-sharma.webp" alt="Priya Sharma" loading="lazy" /></div>
+            <div class="tm-slide__label"><h3>priya sharma</h3><span>director of programmes</span></div>
+          </div>
+          <div class="swiper-slide tm-slide">
+            <div class="tm-slide__photo"><img src="assets/media/team/marcus-bennett.webp" alt="Marcus Bennett" loading="lazy" /></div>
+            <div class="tm-slide__label"><h3>marcus bennett</h3><span>fundraising &amp; partnerships</span></div>
+          </div>
+          <div class="swiper-slide tm-slide">
+            <div class="tm-slide__photo"><img src="assets/media/team/leah-thompson.webp" alt="Leah Thompson" loading="lazy" /></div>
+            <div class="tm-slide__label"><h3>leah thompson</h3><span>community lead</span></div>
+          </div>
+          <div class="swiper-slide tm-slide">
+            <div class="tm-slide__photo"><img src="assets/media/team/jamal-rahman.webp" alt="Jamal Rahman" loading="lazy" /></div>
+            <div class="tm-slide__label"><h3>jamal rahman</h3><span>youth voice coordinator</span></div>
+          </div>
         </div>
       </div>
+      <p class="tm-carousel__hint" data-reveal>drag to meet the rest of the team →</p>
     </section>
 
     <!-- ===== CTA ===== -->
@@ -155,6 +140,7 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="assets/js/team.js"></script>
 </body>
 </html>
