@@ -183,9 +183,12 @@ function initHeader() {
     animation: gsap.to(header, { yPercent: -130, ease: "none" }),
   });
 
-  // burger (mobile) — simple toggle
+  // burger (mobile) menu
   const burger = qs(".c-burger");
-  burger?.addEventListener("click", () => document.documentElement.classList.toggle("menu-open"));
+  const html = document.documentElement;
+  burger?.addEventListener("click", () => html.classList.toggle("menu-open"));
+  qsa(".mobile-menu a").forEach((a) => a.addEventListener("click", () => html.classList.remove("menu-open")));
+  window.addEventListener("resize", () => { if (window.innerWidth > 1023) html.classList.remove("menu-open"); });
 }
 
 /* ============================================================

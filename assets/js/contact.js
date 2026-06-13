@@ -82,7 +82,11 @@ function initHeader() {
   ScrollTrigger.create({ trigger: ".footer", start: "top " + headerH, end: "top top", scrub: 0,
     animation: gsap.to(header, { yPercent: -130, ease: "none" }) });
 
-  qs(".c-burger")?.addEventListener("click", () => document.documentElement.classList.toggle("menu-open"));
+  const burger = qs(".c-burger");
+  const html = document.documentElement;
+  burger?.addEventListener("click", () => html.classList.toggle("menu-open"));
+  qsa(".mobile-menu a").forEach((a) => a.addEventListener("click", () => html.classList.remove("menu-open")));
+  window.addEventListener("resize", () => { if (window.innerWidth > 1023) html.classList.remove("menu-open"); });
 }
 
 /* ---------- hero ---------- */
