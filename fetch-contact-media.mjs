@@ -43,7 +43,7 @@ async function pickPhoto(query, orientation = "landscape") {
 const media = {};
 console.log("fetching contact media...");
 media.hero = await pickVideo("british people friendly conversation uk cafe talking smiling");
-media.aside = await pickPhoto("welcoming uk community centre office british people", "portrait");
+media.aside = await pickPhoto("happy diverse people smiling community group together uk indoors", "landscape");
 media.cta = await pickPhoto("diverse british young people celebration uk together outdoors");
 if (!media.hero) media.hero = await pickPhoto("british people talking friendly uk meeting"); // fallback to image
 

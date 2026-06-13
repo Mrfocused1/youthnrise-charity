@@ -5,8 +5,8 @@ window.RISE_CONTACT_MEDIA = {
     "poster": "https://images.pexels.com/videos/32026188/pexels-photo-32026188.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
   },
   "aside": {
-    "img": "https://images.pexels.com/photos/33597929/pexels-photo-33597929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "alt": "A man in a suit walks down a modern urban corridor with concrete pillars in England."
+    "img": "https://images.pexels.com/photos/3184393/pexels-photo-3184393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "alt": "A diverse group of smiling adults posing in front of a chalkboard in an indoor setting."
   },
   "cta": {
     "img": "https://images.pexels.com/photos/23495477/pexels-photo-23495477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
