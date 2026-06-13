@@ -482,7 +482,19 @@ html.menu-open .mobile-menu { transform: translateX(0); opacity: 1; pointer-even
 }
 .footer__bottom { display: flex; justify-content: space-between; align-items: center; padding-top: 3rem; font-size: 1.4rem; opacity: 0.6; flex-wrap: wrap; gap: 1rem; }
 .footer__mega { font-size: clamp(3.6rem, 12vw, 17rem); font-weight: 700; line-height: 0.8; letter-spacing: -0.03em; text-align: center; padding: 6rem 0 0; opacity: 0.08; white-space: nowrap; }
-@media (max-width: 1023px) { .footer__top { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 1023px) {
+  .footer { padding: 7rem 0 3rem; }
+  .footer__top { grid-template-columns: 1fr 1fr; gap: 3.4rem 2rem; padding-bottom: 4rem; }
+  .footer__brand { grid-column: 1 / -1; }            /* brand spans the full width on top */
+  .footer__logo { height: 5.4rem; margin-bottom: 1.6rem; }
+  .footer__brand p { font-size: 1.4rem; max-width: 40rem; }
+  .footer__newsletter { max-width: 34rem; margin-top: 2.2rem; }
+  .footer__newsletter input { font-size: 1.4rem; }
+  .footer__col h4 { font-size: 1.15rem; margin-bottom: 1rem; }
+  .footer__col a { font-size: 1.45rem; padding: 0.45rem 0; }
+  .footer__credit { margin-top: 2.6rem; }
+  .footer__credit a { font-size: 1.15rem; }
+}
 
 /* ---------- reveal helper ---------- */
 [data-reveal] { opacity: 0; transform: translateY(3rem); }
